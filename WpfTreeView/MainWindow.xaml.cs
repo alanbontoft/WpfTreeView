@@ -83,6 +83,9 @@ namespace WpfTreeView
             {
                 var subItem = new TreeViewItem()
                 {
+                    //////////////
+                    // TODO : Create helper function to get file or folder name from full path
+                    //
                     Header = directoryPath,
                     Tag = directoryPath
                 };
